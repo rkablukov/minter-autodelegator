@@ -8,7 +8,12 @@ from mintersdk.sdk.transactions import MinterDelegateTx
 from mintersdk.minterapi import MinterAPI
 
 
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logging.basicConfig(
+    format='%(asctime)s %(levelname)-8s %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    stream=sys.stdout,
+    level=logging.DEBUG,
+)
 
 
 # Читаем переменные окружения
