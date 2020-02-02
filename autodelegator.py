@@ -53,7 +53,8 @@ def delegate(coin, stake):
         coin=coin,
         stake=stake-Decimal(0.2),
         nonce=api.get_nonce(ADDRESS),
-        gas_coin='BIP'
+        gas_coin='BIP',
+        chain_id=MinterDelegateTx.MAINNET_CHAIN_ID
     )
 
     tx.sign(PRIVATE_KEY)
