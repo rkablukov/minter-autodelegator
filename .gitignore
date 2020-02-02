@@ -2,4 +2,4 @@
 
 .vscode
 
-Pipfile*
+Pipfile.lock
