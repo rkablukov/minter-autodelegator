@@ -15,4 +15,4 @@ pysha3==1.0.2
 requests==2.22.0
 rlp==1.2.0
 toolz==0.10.0
-urllib3==1.25.8
+urllib3==1.26.5
